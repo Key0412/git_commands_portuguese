@@ -34,4 +34,5 @@ Lembre-se:
 * **git config --global alias.*atalho* *comando***: permite definir um atalho para o comando em questão.  
 * **git tag -a *n_versão* -m *descrição***: permite criar tags com número de versão e descrição. **git push *repo* *branch* --tags**: permite fazer o upload das tags, serão visíveis no campo "Release" do repositório online.  
 * **git revert *HashdaVersão***: reverte um commit, no entanto, o faz com um novo commit. Diferente do reset, não deleta o estado anterior, assim é possível continuar a trabalhar nele.  
-* **
+* **git tag/branch -D ...": usado para deletar tags e branches locais.  
+* **git push origin :*n_versão ou branch***: usado para deletar tags e branches no repo online.  
