@@ -29,4 +29,3 @@ Lembre-se:
 * **git merge *nome do branch***: permite realizar merge entre o branch ativo e o selecionado. merge é uma maneira não destrutiva de unir branches, porém polui um pouco o histórico.  
 * **git rebase *nome do branch***: permite enviar a modificação para o topo da lista, porém pode gerar conflitos com outros usuários. Não cria um novo commit como o merge.  
 * **merge vs. rebase**: merge cria commits desnecessários, difícieis de ler. rebase é mais limpo. Merge é utilizado em casos de request onde é necessário identificar as linhas unidas. Ao trabalhar e ao adicionar/atualizar novos commits com outros branches, é melhor usar o rebase.  
-* 
