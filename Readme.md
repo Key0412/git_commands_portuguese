@@ -16,4 +16,5 @@ Lembre-se:
 * **git commit -am <"Descrição das mudanças>"**: se o arquivo já foi adicionado anteriormente, usa isso pra fazer stage+commit  
 * **git checkout <nome do arquivo>**: desfaz as mudanças feitas ANTES DO COMMIT - desfaz mudanças antes da fase de STAGING (antes do git add)  
 * **git reset HEAD <nome do arquivo>**: desfaz as mudanças feitas DEPOIS DO STAGING (depois do git add). funciona entre o staging e o commit.  
+*  **git reset --soft | --mixed | --hard <código do estado anterior>**: --soft retorna para o estado de staging | --mixed retorna para o estado de modificado | --hard retorna para o estado anterior, remove todas as modificações feitas no arquivo  
 * 
