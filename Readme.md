@@ -19,4 +19,5 @@ Lembre-se:
 * **git reset HEAD <nome do arquivo>**: desfaz as mudanças feitas DEPOIS DO STAGING (depois do git add). funciona entre o staging e o commit.  
 *  **git reset --soft | --mixed | --hard <código do estado anterior>**: --soft retorna para o estado de staging | --mixed retorna para o estado de modificado | --hard retorna para o estado anterior, remove todas as modificações feitas no arquivo  
 * **git push**: depois de configurado, envia as modificações feitas para o GitHub (FAZER AS CONFIGURAÇÕES DE SSH ANTES!). **git push repo branch** permite selecionar o branch e o repositório remoto.    
-* **git remote** e **git remote -v**: fornecem algumas informações sobre o respositório remoto. 
+* **git remote** e **git remote -v**: fornecem algumas informações sobre o respositório remoto.  
+* **git clone <endereço SSH> <nome do clone>**: permite clonar o rep para um rep local.  
