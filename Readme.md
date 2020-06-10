@@ -24,4 +24,6 @@ Lembre-se:
 * **FORK**: diferente do clone, que permite que uma cópia de um repo de sua propriedade seja copiado, o FORK permite que um repo de outra pessoa seja DIVIDIDO com você, somente assim é possível fazer pedidos (requests) para que as modificações feitas por você sejam aceitas.  
 * **git checkout -b <nome do branch>**: permite criar um branch  
 * **git branch**: permite verificar que branches existem e qual está ativo  
-* 
+* **git checkout <nome do branch>**: muda para o branch  
+* **git branch -D <nome do branch>**: deleta o branch  
+
