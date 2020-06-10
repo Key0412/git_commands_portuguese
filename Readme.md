@@ -2,9 +2,10 @@
   
 Arquivo criado através do prompt de comando para aprender a fazer submits e commits locais.  
 Lembre-se:  
+* **mkdir**: cria pasta  
+* **rm**: deleta arquivos e pastas   
 * **git init**: inicia um repositório na pasta local  
-* **git status**: mostra o status dos arquivos no branch  
-* **rm**: deleta arquivos  
+* **git status**: mostra o status dos arquivos no branch   
 * **git config user.name**: mostra nome de usuário, pode mostrar email também  
 * **git config --list**: mostra todas as configurações locais  
 * no VIM, usamos "i" para editar, "esc" para sair da edição, ":w" para escrever, ":q" para sair do editor.  
