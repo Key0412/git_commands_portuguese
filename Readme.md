@@ -33,4 +33,5 @@ Lembre-se:
 * **git stash**: se é um trabalho em desenvolvimento (WIP) e você não deseja o enviar de imediato (stage/commit), é possível guardar estes arquivos modificados em um STASH. Para retornar aos items guardados - **git stash apply**. Para ver que items estão guardados **git stash list**. Para limpar o stash **git stash clear**.  
 * **git config --global alias.*atalho* *comando***: permite definir um atalho para o comando em questão.  
 * **git tag -a *n_versão* -m *descrição***: permite criar tags com número de versão e descrição. **git push *repo* *branch* --tags**: permite fazer o upload das tags, serão visíveis no campo "Release" do repositório online.  
-* 
+* **git revert *hash_da_versão***: reverte um commit, no entanto, o faz com um novo commit. Diferente do reset, não deleta o estado anterior, assim é possível continuar a trabalhar nele.  
+* **
