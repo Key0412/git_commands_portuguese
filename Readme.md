@@ -26,4 +26,5 @@ Lembre-se:
 * **git branch**: permite verificar que branches existem e qual está ativo  
 * **git checkout *nome do branch***: muda para o branch  
 * **git branch -D *nome do branch***: deleta o branch  
+* **git merge *nome do branch***: permite realizar merge entre o branch ativo e o selecionado. merge é uma maneira não destrutiva de unir branches, porém polui um pouco o histórico.  
 
