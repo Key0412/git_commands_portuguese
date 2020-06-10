@@ -2,6 +2,7 @@
   
 Arquivo criado através do prompt de comando para aprender a fazer submits e commits locais.  
 Lembre-se:  
+* **git init**: inicia um repositório na pasta local  
 * **git status**: mostra o status dos arquivos no branch  
 * **rm**: deleta arquivos  
 * **git config user.name**: mostra nome de usuário, pode mostrar email também  
