@@ -13,7 +13,7 @@ Lembre-se:
 * **git commit -m *"descrição das mudanças"***: faz o commit das mudanças (tira uma snapshot e salva o estado do arquivo). Devolve um número que identifica o estado salvo!  
 * **git log --decorate** / **git log** / **git log --author: *nome do autor*** / **git shortlog** / **git shortlog -sn** / **git log --graph**: mostra informações sobre os commits / modificações anteriores  
 * **git show *hash do estado anterior***: mostra o que houve nesse commit  
-* **git diff**: mostra as modificações entre o arquivo modificado atual e o anterior - funciona antes do staging! (antes do git add)   
+* **git diff**: mostra as modificações entre o arquivo modificado atual e o anterior - funciona antes do staging! (antes do git add). Pode ser usado com git diff master origin/master para ver diferenças do repo online.  
 * **git diff --name-only**: mostra somente o arquivo que foi modificado (antes do git add/stagint)  
 * **git commit -am *"Descrição das mudanças"***: se o arquivo já foi adicionado anteriormente, usa isso pra fazer stage+commit  
 * **git checkout *nome do arquivo***: desfaz as mudanças feitas ANTES DO COMMIT - desfaz mudanças antes da fase de STAGING (antes do git add)  
