@@ -1,6 +1,6 @@
 # Git para iniciantes  
   
-Arquivo criado através do prompt de comando para aprender a fazer submits e commits locais. Veja também este (link)[https://wethefoss.github.io/Git-Commands/?Search=git+--version].  
+Arquivo criado através do prompt de comando para aprender a fazer submits e commits locais. Veja também este [link](https://wethefoss.github.io/Git-Commands/?Search=git+--version).  
 Lembre-se:  
 * **mkdir**: cria pasta  
 * **rm**: deleta arquivos e pastas   
