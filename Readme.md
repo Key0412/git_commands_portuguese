@@ -37,3 +37,6 @@ Lembre-se:
 * **git revert *HashdaVersão***: reverte um commit, no entanto, o faz com um novo commit. Diferente do reset, não deleta o estado anterior, assim é possível continuar a trabalhar nele.  
 * **git tag/branch -D ...**: usado para deletar tags e branches locais.  
 * **git push origin :*n_versão ou branch***: usado para deletar tags e branches no repo online.  
+* **git pull**: obtém arquivos e modificações do repo online, e altera arquivos locais.  
+* **git remote show origin**: informa sobre o estado do repo e arquivos, se está out of date também.  
+* **git fetch --dry-run**: git fetch somente realiza o download dos novos dados do repo online, mas não integra-os ao seus arquivos.  
