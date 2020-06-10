@@ -14,3 +14,5 @@ Lembre-se:
 * **git diff**: mostra as modificações ANTES de fazer o commit  
 * **git diff --name-only**: mostra somente o arquivo que foi modificado, antes do commit  
 * **git commit -am <"Descrição das mudanças>"**: se o arquivo já foi adicionado anteriormente, usa isso pra fazer submit+commit  
+* **git checkout <"nome do arquivo">**: desfaz as mudanças feitas ANTES DO COMMIT - ou seja, ignora o que foi Staged  
+* 
