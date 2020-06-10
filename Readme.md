@@ -31,4 +31,5 @@ Lembre-se:
 * **merge vs. rebase**: merge cria commits desnecessários, difícieis de ler. rebase é mais limpo. Merge é utilizado em casos de request onde é necessário identificar as linhas unidas. Ao trabalhar e ao adicionar/atualizar novos commits com outros branches, é melhor usar o rebase.  
 * **.gitignore**: utilizado para definir que extensões e arquivos devem ser ignorados pelo Git no repositório local.  
 * **git stash**: se é um trabalho em desenvolvimento (WIP) e você não deseja o enviar de imediato (stage/commit), é possível guardar estes arquivos modificados em um STASH. Para retornar aos items guardados - **git stash apply**. Para ver que items estão guardados **git stash list**. Para limpar o stash **git stash clear**.  
+* **git config --global alias.*atalho* *comando***: permite definir um atalho para o comando em questão.  
 * 
