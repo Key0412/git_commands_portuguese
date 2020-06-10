@@ -21,3 +21,4 @@ Lembre-se:
 * **git push**: depois de configurado, envia as modificações feitas para o GitHub (FAZER AS CONFIGURAÇÕES DE SSH ANTES!). **git push repo branch** permite selecionar o branch e o repositório remoto.    
 * **git remote** e **git remote -v**: fornecem algumas informações sobre o respositório remoto.  
 * **git clone <endereço SSH> <nome do clone>**: permite clonar o rep para um rep local.  
+* **FORK**: diferente do clone, que permite que uma cópia de um repo de sua propriedade seja copiado, o FORK permite que um repo de outra pessoa seja DIVIDIDO com você, somente assim é possível fazer pedidos (requests) para que as modificações feitas por você sejam aceitas.  
